@@ -11,6 +11,7 @@ Duration: May to June 2026
 
 Mentor: NEELA SANTOSH KUMAR
 
+Overview of the Project – Real-Time Chat Application
 
 The Real-Time Chat Application is a web-based communication system that allows users to exchange messages instantly through an interactive chat interface. The application provides a user-friendly environment where messages can be sent and received in real time without refreshing the page.
 
