@@ -1,10 +1,16 @@
 # CODETECH-Task1
 Name: AKSHARA SHRI B 
+
 Company: CODTECH IT SOLUTIONS
+
 ID: CITS1974
+
 Domain: SOFTWARE DEVELOPMENT 
+
 Duration: May to June 2026
+
 Mentor: NEELA SANTOSH KUMAR
+
 
 The Real-Time Chat Application is a web-based communication system that allows users to exchange messages instantly through an interactive chat interface. The application provides a user-friendly environment where messages can be sent and received in real time without refreshing the page.
 
