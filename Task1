@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Real Time Chat App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .chat-container {
+            width: 350px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px gray;
+        }
+
+        .chat-header {
+            background: #0084ff;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 20px;
+        }
+
+        .chat-box {
+            height: 400px;
+            padding: 10px;
+            overflow-y: auto;
+        }
+
+        .message {
+            padding: 10px;
+            margin: 8px;
+            border-radius: 10px;
+            max-width: 70%;
+        }
+
+        .sent {
+            background: #0084ff;
+            color: white;
+            margin-left: auto;
+            text-align: right;
+        }
+
+        .received {
+            background: #e4e6eb;
+            color: black;
+        }
+
+        .input-area {
+            display: flex;
+            border-top: 1px solid #ccc;
+        }
+
+        .input-area input {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            outline: none;
+        }
+
+        .input-area button {
+            background: #0084ff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="chat-container">
+    <div class="chat-header">
+        Real Time Chat App
+    </div>
+
+    <div class="chat-box">
+        <div class="message received">Hello!</div>
+        <div class="message sent">Hi, How are you?</div>
+        <div class="message received">I'm Fine. Thank You!</div>
+    </div>
+
+    <div class="input-area">
+        <input type="text" placeholder="Type a message...">
+        <button>Send</button>
+    </div>
+</div>
+
+</body>
+</html>
